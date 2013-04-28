@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.dagger</groupId>
-	<artifactId>dagger-sandbox-parent</artifactId>
+	<artifactId>dagger-proguard-test-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>dagger-sandbox - Parent</name>
+	<name>dagger-proguard-test- - Parent</name>
 
 	<modules>
 		<module>dagger-sampleclient</module>

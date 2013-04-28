@@ -4,4 +4,5 @@
 /target
 /gen-external-apklibs
 /.apt_generated
-project.properties
+.settings
+.classpath
