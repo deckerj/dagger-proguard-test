@@ -53,5 +53,6 @@ I/ActivityManager(  391): Process com.example.dagger.sandbox (pid 4274) has died
 ```
 
 ## Build-Artefacts
-If also checked in some build artefacts that were built depending on whether ```-Prelease``` were set and whether the dagger-compiler was commented out in the ```pom```.
+If also checked in some [build artefacts](https://github.com/voidmachine/dagger-proguard-test/tree/master/build-artefacts) that were built depending on whether ```-Prelease``` was set and whether the dagger-compiler was commented out in the ```pom```.
+
 
