@@ -51,3 +51,7 @@ D/dalvikvm(23791): GC_CONCURRENT freed 407K, 5% free 10789K/11332K, paused 10ms+
 I/Process ( 4274): Sending signal. PID: 4274 SIG: 9
 I/ActivityManager(  391): Process com.example.dagger.sandbox (pid 4274) has died.
 ```
+
+## Build-Artefacts
+If also checked in some build artefacts that were built depending on whether ```-Prelease``` were set and whether the dagger-compiler was commented out in the ```pom```.
+
