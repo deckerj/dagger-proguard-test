@@ -1,0 +1,29 @@
+dagger.internal.Binding -> dagger.internal.a:
+    dagger.internal.Binding UNRESOLVED -> a
+    java.lang.String provideKey -> b
+    java.lang.String membersKey -> c
+    int bits -> e
+    java.lang.Object requiredBy -> d
+    java.lang.String toString() -> toString
+dagger.internal.Binding$1 -> dagger.internal.Binding$1:
+dagger.internal.BuiltInBinding -> dagger.internal.BuiltInBinding:
+dagger.internal.LazyBinding -> dagger.internal.LazyBinding:
+    java.lang.Object NOT_PRESENT -> e
+dagger.internal.Linker -> dagger.internal.Linker:
+    java.lang.Object UNINITIALIZED -> a
+dagger.internal.Linker$DeferredBinding -> dagger.internal.Linker$DeferredBinding:
+dagger.internal.Linker$SingletonBinding -> dagger.internal.Linker$SingletonBinding:
+    dagger.internal.Binding binding -> e
+    java.lang.String toString() -> toString
+dagger.internal.ModuleAdapter -> dagger.internal.b:
+dagger.internal.SetBinding -> dagger.internal.SetBinding:
+    java.util.Set contributors -> e
+    java.lang.String toString() -> toString
+dagger.internal.StaticInjection -> dagger.internal.c:
+dagger.internal.plugins.reflect.ReflectiveAtInjectBinding -> dagger.internal.plugins.reflect.ReflectiveAtInjectBinding:
+    java.lang.String toString() -> toString
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter -> dagger.internal.plugins.reflect.ReflectiveModuleAdapter:
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding -> dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding:
+    java.lang.reflect.Method method -> e
+    java.lang.String toString() -> toString
+dagger.internal.plugins.reflect.ReflectiveStaticInjection -> dagger.internal.plugins.reflect.ReflectiveStaticInjection:

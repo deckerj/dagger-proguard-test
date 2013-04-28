@@ -1,0 +1,9 @@
+digraph G1 {
+  concentrate = true;
+  AlarmManager -> Context;
+  LayoutInflater -> Context;
+  LocationManager -> Context;
+  NotificationManager -> Context;
+  Resources -> Context;
+  SharedPreferences -> Context;
+}

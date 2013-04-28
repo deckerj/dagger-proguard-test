@@ -1,0 +1,298 @@
+com.example.dagger.sandbox.AndroidServicesModule -> com.example.dagger.sandbox.a:
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter:
+    java.lang.String[] ENTRY_POINTS -> f
+    java.lang.Class[] STATIC_INJECTIONS -> g
+    java.lang.Class[] INCLUDES -> h
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideAlarmManagerProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideAlarmManagerProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLayoutInflaterProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLayoutInflaterProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLocationManagerProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLocationManagerProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideNotificationManagerProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideNotificationManagerProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideResourcesProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideResourcesProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideSharedPreferencesProvidesAdapter -> com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideSharedPreferencesProvidesAdapter:
+    dagger.internal.Binding context -> e
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+com.example.dagger.sandbox.ProductionModule$ModuleAdapter -> com.example.dagger.sandbox.ProductionModule$ModuleAdapter:
+    java.lang.String[] ENTRY_POINTS -> f
+    java.lang.Class[] STATIC_INJECTIONS -> g
+    java.lang.Class[] INCLUDES -> h
+com.example.dagger.sandbox.ProductionModule$ModuleAdapter$ProvideContextProvidesAdapter -> com.example.dagger.sandbox.ProductionModule$ModuleAdapter$ProvideContextProvidesAdapter:
+com.squareup.java.JavaWriter -> com.a.a.a:
+    java.util.regex.Pattern TYPE_PATTERN -> a
+    java.io.Writer out -> b
+    java.lang.String stringLiteral(java.lang.String) -> a
+    void close() -> close
+dagger.Lazy -> dagger.a:
+dagger.MembersInjector -> dagger.b:
+dagger.Module -> dagger.c:
+dagger.Provides -> dagger.d:
+    dagger.Provides$Type type() -> a
+dagger.Provides$Type -> dagger.e:
+    dagger.Provides$Type UNIQUE -> a
+    dagger.Provides$Type SET -> b
+    dagger.Provides$Type[] $VALUES -> c
+    dagger.Provides$Type[] values() -> values
+    dagger.Provides$Type valueOf(java.lang.String) -> valueOf
+dagger.internal.Binding -> dagger.internal.a:
+    dagger.internal.Binding UNRESOLVED -> a
+    java.lang.String provideKey -> b
+    java.lang.String membersKey -> c
+    int bits -> e
+    java.lang.Object requiredBy -> d
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    void setLinked() -> a
+    boolean isLinked() -> b
+    boolean isSingleton() -> c
+    boolean isVisiting() -> d
+    void setVisiting(boolean) -> a
+    boolean isCycleFree() -> e
+    void setCycleFree(boolean) -> b
+    java.lang.String toString() -> toString
+dagger.internal.Binding$1 -> dagger.internal.Binding$1:
+dagger.internal.BuiltInBinding -> dagger.internal.BuiltInBinding:
+    java.lang.String delegateKey -> e
+    dagger.internal.Binding delegate -> f
+    void attach(dagger.internal.Linker) -> a
+dagger.internal.Keys -> dagger.internal.b:
+    java.lang.String PROVIDER_PREFIX -> a
+    java.lang.String MEMBERS_INJECTOR_PREFIX -> b
+    java.lang.String LAZY_PREFIX -> c
+    java.lang.String SET_PREFIX -> d
+    dagger.internal.LruCache IS_QUALIFIER_ANNOTATION -> e
+    java.lang.String get(java.lang.reflect.Type,java.lang.annotation.Annotation) -> a
+    java.lang.String get(java.lang.reflect.Type,java.lang.annotation.Annotation[],java.lang.Object) -> a
+    java.lang.annotation.Annotation extractQualifier(java.lang.annotation.Annotation[],java.lang.Object) -> a
+    void typeToString(java.lang.reflect.Type,java.lang.StringBuilder,boolean) -> a
+    java.lang.String getBuiltInBindingsKey(java.lang.String) -> a
+    java.lang.String getLazyKey(java.lang.String) -> b
+    int startOfType(java.lang.String) -> f
+    java.lang.String extractKey(java.lang.String,int,java.lang.String,java.lang.String) -> a
+    boolean substringStartsWith(java.lang.String,int,java.lang.String) -> a
+    boolean isAnnotated(java.lang.String) -> c
+    java.lang.String getClassName(java.lang.String) -> d
+    boolean isPlatformType(java.lang.String) -> e
+    java.lang.reflect.Type boxIfPrimitive(java.lang.reflect.Type) -> a
+dagger.internal.Keys$1 -> dagger.internal.c:
+    java.lang.Boolean create(java.lang.Class) -> a
+    java.lang.Object create(java.lang.Object) -> a
+dagger.internal.LazyBinding -> dagger.internal.LazyBinding:
+    java.lang.Object NOT_PRESENT -> e
+    java.lang.String lazyKey -> f
+    dagger.internal.Binding delegate -> g
+    void attach(dagger.internal.Linker) -> a
+dagger.internal.Linker -> dagger.internal.Linker:
+    java.lang.Object UNINITIALIZED -> a
+    dagger.internal.Linker base -> b
+    java.util.Queue toLink -> c
+    boolean attachSuccess -> d
+    java.util.List errors -> e
+    java.util.Map bindings -> f
+    dagger.internal.Plugin plugin -> g
+    dagger.internal.Linker$ErrorHandler errorHandler -> h
+    void installBindings(java.util.Map) -> a
+    java.util.Map linkAll() -> a
+    void linkRequested() -> b
+    void assertLockHeld() -> d
+    dagger.internal.Binding createJitBinding(java.lang.String,java.lang.Object,boolean) -> b
+    dagger.internal.Binding requestBinding(java.lang.String,java.lang.Object) -> a
+    dagger.internal.Binding requestBinding(java.lang.String,java.lang.Object,boolean) -> a
+    void putBinding(dagger.internal.Binding) -> b
+    dagger.internal.Binding scope(dagger.internal.Binding) -> a
+    void putIfAbsent(java.util.Map,java.lang.Object,java.lang.Object) -> a
+    void addError(java.lang.String) -> a
+    java.lang.Object access$200() -> c
+dagger.internal.Linker$1 -> dagger.internal.d:
+dagger.internal.Linker$DeferredBinding -> dagger.internal.Linker$DeferredBinding:
+    java.lang.String deferredKey -> e
+    boolean mustBeInjectable -> f
+    void getDependencies(java.util.Set,java.util.Set) -> a
+dagger.internal.Linker$ErrorHandler -> dagger.internal.e:
+    void handleErrors(java.util.List) -> a
+dagger.internal.Linker$SingletonBinding -> dagger.internal.Linker$SingletonBinding:
+    dagger.internal.Binding binding -> e
+    java.lang.Object onlyInstance -> f
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    boolean isCycleFree() -> e
+    boolean isLinked() -> b
+    boolean isVisiting() -> d
+    void setCycleFree(boolean) -> b
+    void setVisiting(boolean) -> a
+    boolean isSingleton() -> c
+    void setLinked() -> a
+    java.lang.String toString() -> toString
+dagger.internal.LruCache -> dagger.internal.f:
+    java.util.LinkedHashMap map -> a
+    int size -> b
+    int maxSize -> c
+    int createCount -> d
+    int evictionCount -> e
+    int hitCount -> f
+    int missCount -> g
+    java.lang.Object get(java.lang.Object) -> b
+    void trimToSize(int) -> a
+    void entryRemoved(boolean,java.lang.Object,java.lang.Object,java.lang.Object) -> a
+    java.lang.Object create(java.lang.Object) -> a
+    int safeSizeOf(java.lang.Object,java.lang.Object) -> b
+    int sizeOf(java.lang.Object,java.lang.Object) -> a
+    java.lang.String toString() -> toString
+dagger.internal.ModuleAdapter -> dagger.internal.g:
+    java.lang.String[] entryPoints -> a
+    java.lang.Class[] staticInjections -> b
+    boolean overrides -> c
+    java.lang.Class[] includes -> d
+    boolean complete -> e
+dagger.internal.Plugin -> dagger.internal.h:
+    dagger.internal.Binding getAtInjectBinding(java.lang.String,java.lang.String,boolean) -> a
+dagger.internal.ProblemDetector -> dagger.internal.i:
+    void detectProblems(java.util.Collection) -> a
+    void detectCircularDependencies(java.util.Collection,java.util.List) -> a
+dagger.internal.ProblemDetector$ArraySet -> dagger.internal.j:
+    java.util.ArrayList list -> a
+    boolean add(java.lang.Object) -> add
+    java.util.Iterator iterator() -> iterator
+    int size() -> size
+dagger.internal.SetBinding -> dagger.internal.SetBinding:
+    java.util.Set contributors -> e
+    void add(java.util.Map,java.lang.String,dagger.internal.Binding) -> a
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    java.lang.String toString() -> toString
+dagger.internal.StaticInjection -> dagger.internal.k:
+dagger.internal.codegen.AtInjectBinding -> dagger.internal.codegen.AtInjectBinding:
+    javax.lang.model.element.TypeElement type -> e
+    java.util.List keys -> f
+    dagger.internal.Binding[] bindings -> g
+    java.lang.String supertypeKey -> h
+    dagger.internal.Binding supertypeBinding -> i
+    dagger.internal.codegen.AtInjectBinding create(javax.lang.model.element.TypeElement,boolean) -> a
+    boolean hasAtInject(javax.lang.model.element.Element) -> a
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+dagger.internal.codegen.AtInjectBinding$1 -> dagger.internal.codegen.a:
+    int[] $SwitchMap$javax$lang$model$element$ElementKind -> a
+dagger.internal.codegen.CodeGen -> dagger.internal.codegen.b:
+    javax.lang.model.element.AnnotationValueVisitor VALUE_EXTRACTOR -> a
+    javax.lang.model.element.PackageElement getPackage(javax.lang.model.element.Element) -> a
+    javax.lang.model.type.TypeMirror getApplicationSupertype(javax.lang.model.element.TypeElement) -> a
+    java.lang.String rawTypeToString(javax.lang.model.type.TypeMirror,char) -> a
+    void typeToString(javax.lang.model.type.TypeMirror,java.lang.StringBuilder,char) -> a
+    java.util.Map getAnnotation(java.lang.Class,javax.lang.model.element.Element) -> a
+    boolean lenientIsInstance(java.lang.Class,java.lang.Object) -> a
+    void rawTypeToString(java.lang.StringBuilder,javax.lang.model.element.TypeElement,char) -> a
+    java.lang.Class box(javax.lang.model.type.PrimitiveType) -> b
+    java.lang.Class access$000(javax.lang.model.type.PrimitiveType) -> a
+dagger.internal.codegen.CodeGen$1 -> dagger.internal.codegen.c:
+    java.lang.StringBuilder val$result -> a
+    char val$innerClassSeparator -> b
+    javax.lang.model.type.TypeMirror val$type -> c
+    java.lang.Void visitDeclared(javax.lang.model.type.DeclaredType,java.lang.Void) -> a
+    java.lang.Void visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Void) -> a
+    java.lang.Void visitArray(javax.lang.model.type.ArrayType,java.lang.Void) -> a
+    java.lang.Void visitTypeVariable(javax.lang.model.type.TypeVariable,java.lang.Void) -> a
+    java.lang.Void defaultAction(javax.lang.model.type.TypeMirror,java.lang.Void) -> a
+    java.lang.Object visitTypeVariable(javax.lang.model.type.TypeVariable,java.lang.Object) -> visitTypeVariable
+    java.lang.Object visitDeclared(javax.lang.model.type.DeclaredType,java.lang.Object) -> visitDeclared
+    java.lang.Object visitArray(javax.lang.model.type.ArrayType,java.lang.Object) -> visitArray
+    java.lang.Object visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object) -> visitPrimitive
+    java.lang.Object defaultAction(javax.lang.model.type.TypeMirror,java.lang.Object) -> defaultAction
+dagger.internal.codegen.CodeGen$2 -> dagger.internal.codegen.d:
+    java.lang.Object defaultAction(java.lang.Object,java.lang.Void) -> a
+    java.lang.Object visitArray(java.util.List,java.lang.Void) -> a
+    java.lang.Object visitArray(java.util.List,java.lang.Object) -> visitArray
+    java.lang.Object defaultAction(java.lang.Object,java.lang.Object) -> defaultAction
+dagger.internal.codegen.CodeGen$3 -> dagger.internal.codegen.e:
+    int[] $SwitchMap$javax$lang$model$type$TypeKind -> a
+dagger.internal.codegen.CompileTimePlugin -> dagger.internal.codegen.f:
+    javax.annotation.processing.ProcessingEnvironment processingEnv -> a
+    dagger.internal.Binding getAtInjectBinding(java.lang.String,java.lang.String,boolean) -> a
+dagger.internal.codegen.DotWriter -> dagger.internal.codegen.g:
+    java.io.Writer out -> a
+    int indent -> b
+    int nextName -> c
+    java.util.Map generatedNames -> d
+    void beginGraph(java.lang.String[]) -> a
+    void endGraph() -> a
+    void node(java.lang.String,java.lang.String[]) -> a
+    void edge(java.lang.String,java.lang.String,java.lang.String[]) -> a
+    void attributes(java.lang.String[]) -> b
+    void inlineAttributes(java.lang.String[]) -> c
+    java.lang.String nodeName(java.lang.String) -> a
+    java.lang.String literal(java.lang.String) -> b
+    void indent() -> b
+    java.lang.String nextName(java.lang.String) -> c
+    void close() -> close
+dagger.internal.codegen.FullGraphProcessor -> dagger.internal.codegen.FullGraphProcessor:
+    java.util.Set delayedModuleNames -> a
+    javax.lang.model.SourceVersion getSupportedSourceVersion() -> getSupportedSourceVersion
+    boolean process(java.util.Set,javax.annotation.processing.RoundEnvironment) -> process
+    void error(java.lang.String,javax.lang.model.element.Element) -> a
+    java.util.Map processCompleteModule(javax.lang.model.element.TypeElement) -> a
+    java.lang.String shortMethodName(javax.lang.model.element.ExecutableElement) -> a
+    void collectIncludesRecursively(javax.lang.model.element.TypeElement,java.util.Map) -> b
+    void writeDotFile(javax.lang.model.element.TypeElement,java.util.Map) -> a
+dagger.internal.codegen.FullGraphProcessor$1 -> dagger.internal.codegen.h:
+    int[] $SwitchMap$dagger$Provides$Type -> a
+dagger.internal.codegen.FullGraphProcessor$ProviderMethodBinding -> dagger.internal.codegen.FullGraphProcessor$ProviderMethodBinding:
+    javax.lang.model.element.ExecutableElement method -> e
+    dagger.internal.Binding[] parameters -> f
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    javax.lang.model.element.ExecutableElement access$000(dagger.internal.codegen.FullGraphProcessor$ProviderMethodBinding) -> a
+dagger.internal.codegen.GeneratorKeys -> dagger.internal.codegen.i:
+    java.lang.String SET_PREFIX -> a
+    java.lang.String rawMembersKey(javax.lang.model.type.TypeMirror) -> a
+    java.lang.String get(javax.lang.model.type.TypeMirror) -> b
+    java.lang.String get(javax.lang.model.element.ExecutableElement) -> a
+    java.lang.String getElementKey(javax.lang.model.element.ExecutableElement) -> b
+    java.lang.String get(javax.lang.model.element.VariableElement) -> a
+    void qualifierToString(javax.lang.model.element.AnnotationMirror,java.lang.StringBuilder) -> a
+    javax.lang.model.element.AnnotationMirror getQualifier(java.util.List,java.lang.Object) -> a
+dagger.internal.codegen.GraphVisualizer -> dagger.internal.codegen.j:
+    java.util.regex.Pattern KEY_PATTERN -> a
+    void write(java.util.Map,dagger.internal.codegen.DotWriter) -> a
+    java.util.Map buildNamesIndex(java.util.Map) -> a
+    java.lang.String shortName(java.lang.String) -> a
+dagger.internal.codegen.ReportingErrorHandler -> dagger.internal.codegen.k:
+    javax.annotation.processing.ProcessingEnvironment processingEnv -> a
+    java.lang.String moduleName -> b
+    void handleErrors(java.util.List) -> a
+dagger.internal.plugins.reflect.ReflectiveAtInjectBinding -> dagger.internal.plugins.reflect.ReflectiveAtInjectBinding:
+    java.lang.reflect.Field[] fields -> e
+    java.lang.reflect.Constructor constructor -> f
+    java.lang.Class supertype -> g
+    java.lang.String[] keys -> h
+    dagger.internal.Binding[] fieldBindings -> i
+    dagger.internal.Binding[] parameterBindings -> j
+    dagger.internal.Binding supertypeBinding -> k
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    java.lang.String toString() -> toString
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter -> dagger.internal.plugins.reflect.ReflectiveModuleAdapter:
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding -> dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding:
+    dagger.internal.Binding[] parameters -> e
+    java.lang.reflect.Method method -> f
+    void attach(dagger.internal.Linker) -> a
+    void getDependencies(java.util.Set,java.util.Set) -> a
+    java.lang.String toString() -> toString
+dagger.internal.plugins.reflect.ReflectiveStaticInjection -> dagger.internal.plugins.reflect.ReflectiveStaticInjection:
+javax.inject.Inject -> a.a.a:
+javax.inject.Provider -> a.a.b:
+javax.inject.Qualifier -> a.a.c:
+javax.inject.Singleton -> a.a.d:

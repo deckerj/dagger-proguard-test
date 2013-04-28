@@ -1,0 +1,735 @@
+_____________________________________________________________________
++ Program class: dagger/internal/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x421
+    = public abstract class dagger.internal.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 67):
+  + String [", memberskey="]
+  + String ["]]
+  + String [[provideKey="]
+  + Class [dagger/internal/Binding$1]
+  + Class [dagger/internal/a]
+  + Class [java/lang/Class]
+  + Class [java/lang/IllegalArgumentException]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [dagger/internal/a.a Ldagger/internal/a;]
+  + Fieldref [dagger/internal/a.b Ljava/lang/String;]
+  + Fieldref [dagger/internal/a.c Ljava/lang/String;]
+  + Fieldref [dagger/internal/a.d Ljava/lang/Object;]
+  + Fieldref [dagger/internal/a.e I]
+  + Methodref [dagger/internal/Binding$1.<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+  + Methodref [java/lang/IllegalArgumentException.<init> ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + NameAndType [a Ldagger/internal/a;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [d Ljava/lang/Object;]
+  + NameAndType [e I]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getSimpleName ()Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [", memberskey="]
+  + Utf8 ["]]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Ldagger/internal/a;]
+  + Utf8 [Ljava/lang/Object;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[provideKey="]
+  + Utf8 [a]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [dagger/internal/Binding$1]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [e]
+  + Utf8 [getClass]
+  + Utf8 [getSimpleName]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/IllegalArgumentException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [toString]
+
+Fields (count = 5):
+  + Field:        a Ldagger/internal/a;
+    Access flags: 0x19
+      = public static final dagger.internal.a a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String c
+  + Field:        e I
+    Access flags: 0x2
+      = private int e
+  + Field:        d Ljava/lang/Object;
+    Access flags: 0x11
+      = public final java.lang.Object d
+
+Methods (count = 3):
+  - Method:       <init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V
+    Access flags: 0x4
+      = protected a(java.lang.String,java.lang.String,boolean,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 5, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] iload_3 v3
+      [5] ifeq +15 (target=20)
+      [8] aload_1 v1
+      [9] ifnonnull +11 (target=20)
+      [12] new #7
+        + Class [java/lang/IllegalArgumentException]
+      [15] dup
+      [16] invokespecial #18
+        + Methodref [java/lang/IllegalArgumentException.<init> ()V]
+      [19] athrow
+      [20] aload_0 v0
+      [21] aload_1 v1
+      [22] putfield #12
+        + Fieldref [dagger/internal/a.b Ljava/lang/String;]
+      [25] aload_0 v0
+      [26] aload_2 v2
+      [27] putfield #13
+        + Fieldref [dagger/internal/a.c Ljava/lang/String;]
+      [30] aload_0 v0
+      [31] iload_3 v3
+      [32] ifeq +7 (target=39)
+      [35] iconst_1
+      [36] goto +4 (target=40)
+      [39] iconst_0
+      [40] putfield #15
+        + Fieldref [dagger/internal/a.e I]
+      [43] aload_0 v0
+      [44] aload v4
+      [46] putfield #14
+        + Fieldref [dagger/internal/a.d Ljava/lang/Object;]
+      [49] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [20] Var: [a:dagger/internal/a][a:java/lang/String][a:java/lang/String][i][a:java/lang/Object], Stack: 
+        - [39] Var: ..., Stack: [a:dagger/internal/a]
+        - [40] Var: [a:dagger/internal/a][a:java/lang/String][a:java/lang/String][i][a:java/lang/Object], Stack: [a:dagger/internal/a][i]
+  + Method:       toString()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String toString()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 1, stack = 2):
+      [0] new #10
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #21
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] aload_0 v0
+      [8] invokevirtual #20
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [11] invokevirtual #17
+        + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+      [14] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [17] ldc #3
+        + String [[provideKey="]
+      [19] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [22] aload_0 v0
+      [23] getfield #12
+        + Fieldref [dagger/internal/a.b Ljava/lang/String;]
+      [26] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [29] ldc #1
+        + String [", memberskey="]
+      [31] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [34] aload_0 v0
+      [35] getfield #13
+        + Fieldref [dagger/internal/a.c Ljava/lang/String;]
+      [38] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [41] ldc #2
+        + String ["]]
+      [43] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [46] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [49] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 0, stack = 6):
+      [0] new #4
+        + Class [dagger/internal/Binding$1]
+      [3] dup
+      [4] aconst_null
+      [5] aconst_null
+      [6] iconst_0
+      [7] aconst_null
+      [8] invokespecial #16
+        + Methodref [dagger/internal/Binding$1.<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+      [11] putstatic #11
+        + Fieldref [dagger/internal/a.a Ldagger/internal/a;]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/Binding$1
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.Binding$1 extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 10):
+  + Class [dagger/internal/Binding$1]
+  + Class [dagger/internal/a]
+  + Methodref [dagger/internal/a.<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [dagger/internal/Binding$1]
+  + Utf8 [dagger/internal/a]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V
+    Access flags: 0x0
+      = Binding$1(java.lang.String,java.lang.String,boolean,java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] iload_3 v3
+      [4] aload v4
+      [6] invokespecial #3
+        + Methodref [dagger/internal/a.<init> (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/Object;)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/BuiltInBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.BuiltInBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/BuiltInBinding]
+  + Class [dagger/internal/a]
+  + Utf8 [dagger/internal/BuiltInBinding]
+  + Utf8 [dagger/internal/a]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/LazyBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.LazyBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 17):
+  + Class [dagger/internal/LazyBinding]
+  + Class [dagger/internal/a]
+  + Class [java/lang/Object]
+  + Fieldref [dagger/internal/LazyBinding.e Ljava/lang/Object;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [e Ljava/lang/Object;]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/Object;]
+  + Utf8 [dagger/internal/LazyBinding]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [e]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        e Ljava/lang/Object;
+    Access flags: 0x1a
+      = private static final java.lang.Object e
+
+Methods (count = 1):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #3
+        + Class [java/lang/Object]
+      [3] dup
+      [4] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [7] putstatic #4
+        + Fieldref [dagger/internal/LazyBinding.e Ljava/lang/Object;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/Linker
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class dagger.internal.Linker extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 15):
+  + Class [dagger/internal/Linker]
+  + Class [java/lang/Object]
+  + Fieldref [dagger/internal/Linker.a Ljava/lang/Object;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/Object;]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/Object;]
+  + Utf8 [a]
+  + Utf8 [dagger/internal/Linker]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        a Ljava/lang/Object;
+    Access flags: 0x1a
+      = private static final java.lang.Object a
+
+Methods (count = 1):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #2
+        + Class [java/lang/Object]
+      [3] dup
+      [4] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [7] putstatic #3
+        + Fieldref [dagger/internal/Linker.a Ljava/lang/Object;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/Linker$DeferredBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class dagger.internal.Linker$DeferredBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/Linker$DeferredBinding]
+  + Class [dagger/internal/a]
+  + Utf8 [dagger/internal/Linker$DeferredBinding]
+  + Utf8 [dagger/internal/a]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/Linker$SingletonBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class dagger.internal.Linker$SingletonBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 27):
+  + String [@Singleton/]
+  + Class [dagger/internal/Linker$SingletonBinding]
+  + Class [dagger/internal/a]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [dagger/internal/Linker$SingletonBinding.e Ldagger/internal/a;]
+  + Methodref [dagger/internal/a.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [e Ldagger/internal/a;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [@Singleton/]
+  + Utf8 [Code]
+  + Utf8 [Ldagger/internal/a;]
+  + Utf8 [append]
+  + Utf8 [dagger/internal/Linker$SingletonBinding]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [e]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        e Ldagger/internal/a;
+    Access flags: 0x12
+      = private final dagger.internal.a e
+
+Methods (count = 1):
+  + Method:       toString()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String toString()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 1, stack = 2):
+      [0] new #4
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #7
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] ldc #1
+        + String [@Singleton/]
+      [9] invokevirtual #8
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [12] aload_0 v0
+      [13] getfield #5
+        + Fieldref [dagger/internal/Linker$SingletonBinding.e Ldagger/internal/a;]
+      [16] invokevirtual #6
+        + Methodref [dagger/internal/a.toString ()Ljava/lang/String;]
+      [19] invokevirtual #8
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [22] invokevirtual #9
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [25] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x421
+    = public abstract class dagger.internal.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/b]
+  + Class [java/lang/Object]
+  + Utf8 [dagger/internal/b]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/SetBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class dagger.internal.SetBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 29):
+  + String [SetBinding]
+  + Class [dagger/internal/SetBinding]
+  + Class [dagger/internal/a]
+  + Class [java/lang/StringBuilder]
+  + Fieldref [dagger/internal/SetBinding.e Ljava/util/Set;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [e Ljava/util/Set;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/util/Set;]
+  + Utf8 [SetBinding]
+  + Utf8 [append]
+  + Utf8 [dagger/internal/SetBinding]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [e]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        e Ljava/util/Set;
+    Access flags: 0x12
+      = private final java.util.Set e
+
+Methods (count = 1):
+  + Method:       toString()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String toString()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 1, stack = 2):
+      [0] new #4
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #6
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] ldc #1
+        + String [SetBinding]
+      [9] invokevirtual #8
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [12] aload_0 v0
+      [13] getfield #5
+        + Fieldref [dagger/internal/SetBinding.e Ljava/util/Set;]
+      [16] invokevirtual #7
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [19] invokevirtual #9
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [22] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x421
+    = public abstract class dagger.internal.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/c]
+  + Class [java/lang/Object]
+  + Utf8 [dagger/internal/c]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/plugins/reflect/ReflectiveAtInjectBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.plugins.reflect.ReflectiveAtInjectBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 18):
+  + Class [dagger/internal/a]
+  + Class [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding]
+  + Class [java/lang/String]
+  + Fieldref [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding.b Ljava/lang/String;]
+  + Fieldref [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding.c Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding]
+  + Utf8 [java/lang/String]
+  + Utf8 [toString]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       toString()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String toString()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding.b Ljava/lang/String;]
+      [4] ifnull +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #4
+        + Fieldref [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding.b Ljava/lang/String;]
+      [11] goto +7 (target=18)
+      [14] aload_0 v0
+      [15] getfield #5
+        + Fieldref [dagger/internal/plugins/reflect/ReflectiveAtInjectBinding.c Ljava/lang/String;]
+      [18] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [14] Var: ..., Stack: (empty)
+        - [18] Var: ..., Stack: [a:java/lang/String]
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/plugins/reflect/ReflectiveModuleAdapter
+  Superclass:    dagger/internal/b
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.plugins.reflect.ReflectiveModuleAdapter extends dagger.internal.b
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/b]
+  + Class [dagger/internal/plugins/reflect/ReflectiveModuleAdapter]
+  + Utf8 [dagger/internal/b]
+  + Utf8 [dagger/internal/plugins/reflect/ReflectiveModuleAdapter]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/plugins/reflect/ReflectiveModuleAdapter$ProviderMethodBinding
+  Superclass:    dagger/internal/a
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding extends dagger.internal.a
+
+Interfaces (count = 0):
+
+Constant Pool (count = 16):
+  + Class [dagger/internal/a]
+  + Class [dagger/internal/plugins/reflect/ReflectiveModuleAdapter$ProviderMethodBinding]
+  + Class [java/lang/reflect/Method]
+  + Fieldref [dagger/internal/plugins/reflect/ReflectiveModuleAdapter$ProviderMethodBinding.e Ljava/lang/reflect/Method;]
+  + Methodref [java/lang/reflect/Method.toString ()Ljava/lang/String;]
+  + NameAndType [e Ljava/lang/reflect/Method;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/reflect/Method;]
+  + Utf8 [dagger/internal/a]
+  + Utf8 [dagger/internal/plugins/reflect/ReflectiveModuleAdapter$ProviderMethodBinding]
+  + Utf8 [e]
+  + Utf8 [java/lang/reflect/Method]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        e Ljava/lang/reflect/Method;
+    Access flags: 0x12
+      = private final java.lang.reflect.Method e
+
+Methods (count = 1):
+  + Method:       toString()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String toString()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [dagger/internal/plugins/reflect/ReflectiveModuleAdapter$ProviderMethodBinding.e Ljava/lang/reflect/Method;]
+      [4] invokevirtual #5
+        + Methodref [java/lang/reflect/Method.toString ()Ljava/lang/String;]
+      [7] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: dagger/internal/plugins/reflect/ReflectiveStaticInjection
+  Superclass:    dagger/internal/c
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class dagger.internal.plugins.reflect.ReflectiveStaticInjection extends dagger.internal.c
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [dagger/internal/c]
+  + Class [dagger/internal/plugins/reflect/ReflectiveStaticInjection]
+  + Utf8 [dagger/internal/c]
+  + Utf8 [dagger/internal/plugins/reflect/ReflectiveStaticInjection]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+

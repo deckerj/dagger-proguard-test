@@ -1,0 +1,251 @@
+com.example.dagger.sandbox.AndroidServicesModule:
+    22:22:android.location.LocationManager provideLocationManager(android.content.Context)
+    29:29:android.view.LayoutInflater provideLayoutInflater(android.content.Context)
+    36:36:public android.app.AlarmManager provideAlarmManager(android.content.Context)
+    42:42:public android.app.NotificationManager provideNotificationManager(android.content.Context)
+    49:49:android.content.res.Resources provideResources(android.content.Context)
+    55:55:public android.content.SharedPreferences provideSharedPreferences(android.content.Context)
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter:
+    27:27:protected com.example.dagger.sandbox.AndroidServicesModule newModule()
+    36:42:public void getBindings(java.util.Map)
+    16:16:protected bridge synthetic java.lang.Object newModule()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideAlarmManagerProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    158:160:public AndroidServicesModule$ModuleAdapter$ProvideAlarmManagerProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    187:187:public android.app.AlarmManager get()
+    152:152:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLayoutInflaterProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    109:111:public AndroidServicesModule$ModuleAdapter$ProvideLayoutInflaterProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    138:138:public android.view.LayoutInflater get()
+    103:103:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideLocationManagerProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    60:62:public AndroidServicesModule$ModuleAdapter$ProvideLocationManagerProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    89:89:public android.location.LocationManager get()
+    54:54:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideNotificationManagerProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    207:209:public AndroidServicesModule$ModuleAdapter$ProvideNotificationManagerProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    236:236:public android.app.NotificationManager get()
+    201:201:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideResourcesProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    256:258:public AndroidServicesModule$ModuleAdapter$ProvideResourcesProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    285:285:public android.content.res.Resources get()
+    250:250:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.AndroidServicesModule$ModuleAdapter$ProvideSharedPreferencesProvidesAdapter:
+    private final com.example.dagger.sandbox.AndroidServicesModule module
+    305:307:public AndroidServicesModule$ModuleAdapter$ProvideSharedPreferencesProvidesAdapter(com.example.dagger.sandbox.AndroidServicesModule)
+    334:334:public android.content.SharedPreferences get()
+    299:299:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.BaseActivity
+com.example.dagger.sandbox.BuildConfig
+com.example.dagger.sandbox.ProductionModule
+com.example.dagger.sandbox.ProductionModule$ModuleAdapter:
+    29:30:public void getBindings(java.util.Map)
+com.example.dagger.sandbox.ProductionModule$ModuleAdapter$ProvideContextProvidesAdapter:
+    private final com.example.dagger.sandbox.ProductionModule module
+    44:46:public ProductionModule$ModuleAdapter$ProvideContextProvidesAdapter(com.example.dagger.sandbox.ProductionModule)
+    54:54:public android.content.Context get()
+    39:39:public bridge synthetic java.lang.Object get()
+com.example.dagger.sandbox.R
+com.example.dagger.sandbox.R$attr
+com.example.dagger.sandbox.R$dimen
+com.example.dagger.sandbox.R$drawable
+com.example.dagger.sandbox.R$id
+com.example.dagger.sandbox.R$layout
+com.example.dagger.sandbox.R$menu
+com.example.dagger.sandbox.R$string
+com.example.dagger.sandbox.R$style
+com.example.dagger.sandbox.SampleActivity
+com.example.dagger.sandbox.SampleApplication
+com.squareup.java.JavaWriter:
+    private static final java.lang.String INDENT
+    private final java.util.Map importedTypes
+    private java.lang.String packagePrefix
+    private final java.util.List scopes
+    35:37:public JavaWriter(java.io.Writer)
+    41:52:public com.squareup.java.JavaWriter emitPackage(java.lang.String)
+    60:60:public varargs com.squareup.java.JavaWriter emitImports(java.lang.String[])
+    68:80:public com.squareup.java.JavaWriter emitImports(java.util.Collection)
+    88:89:private com.squareup.java.JavaWriter emitType(java.lang.String)
+    94:126:public java.lang.String compressType(java.lang.String)
+    130:139:private boolean isClassInPackage(java.lang.String)
+    148:148:public com.squareup.java.JavaWriter beginType(java.lang.String,java.lang.String,int)
+    159:181:public varargs com.squareup.java.JavaWriter beginType(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String[])
+    186:189:public com.squareup.java.JavaWriter endType()
+    194:194:public com.squareup.java.JavaWriter emitField(java.lang.String,java.lang.String,int)
+    199:210:public com.squareup.java.JavaWriter emitField(java.lang.String,java.lang.String,int,java.lang.String)
+    222:248:public varargs com.squareup.java.JavaWriter beginMethod(java.lang.String,java.lang.String,int,java.lang.String[])
+    253:265:public varargs com.squareup.java.JavaWriter emitJavadoc(java.lang.String,java.lang.Object[])
+    270:273:public varargs com.squareup.java.JavaWriter emitEndOfLineComment(java.lang.String,java.lang.Object[])
+    277:278:public com.squareup.java.JavaWriter emitEmptyLine()
+    282:285:public com.squareup.java.JavaWriter emitEnumValue(java.lang.String)
+    290:290:public com.squareup.java.JavaWriter emitAnnotation(java.lang.String)
+    295:295:public com.squareup.java.JavaWriter emitAnnotation(java.lang.Class)
+    307:307:public com.squareup.java.JavaWriter emitAnnotation(java.lang.Class,java.lang.Object)
+    318:325:public com.squareup.java.JavaWriter emitAnnotation(java.lang.String,java.lang.Object)
+    331:331:public com.squareup.java.JavaWriter emitAnnotation(java.lang.Class,java.util.Map)
+    343:369:public com.squareup.java.JavaWriter emitAnnotation(java.lang.String,java.util.Map)
+    377:398:private com.squareup.java.JavaWriter emitAnnotationValue(java.lang.Object)
+    406:416:public varargs com.squareup.java.JavaWriter emitStatement(java.lang.String,java.lang.Object[])
+    424:429:public com.squareup.java.JavaWriter beginControlFlow(java.lang.String)
+    437:443:public com.squareup.java.JavaWriter nextControlFlow(java.lang.String)
+    447:447:public com.squareup.java.JavaWriter endControlFlow()
+    455:464:public com.squareup.java.JavaWriter endControlFlow(java.lang.String)
+    469:476:public com.squareup.java.JavaWriter endMethod()
+    517:532:public static varargs java.lang.String type(java.lang.Class,java.lang.String[])
+    541:569:static java.lang.String modifiers(int)
+    573:576:private void indent()
+    579:582:private void hangingIndent()
+    585:589:private void checkInMethod()
+    592:593:private void pushScope(com.squareup.java.JavaWriter$Scope)
+    596:596:private com.squareup.java.JavaWriter$Scope peekScope()
+    600:600:private com.squareup.java.JavaWriter$Scope popScope()
+    604:607:private void popScope(com.squareup.java.JavaWriter$Scope)
+com.squareup.java.JavaWriter$Scope
+dagger.Lazy:
+    public abstract java.lang.Object get()
+dagger.MembersInjector:
+    public abstract void injectMembers(java.lang.Object)
+dagger.Module:
+    public abstract java.lang.Class[] entryPoints()
+    public abstract java.lang.Class[] staticInjections()
+    public abstract boolean overrides()
+    public abstract java.lang.Class[] includes()
+    public abstract java.lang.Class addsTo()
+    public abstract boolean complete()
+dagger.ObjectGraph
+dagger.ObjectGraph$DaggerObjectGraph
+dagger.internal.Binding:
+    protected static final boolean IS_SINGLETON
+    protected static final boolean NOT_SINGLETON
+    private static final int SINGLETON
+    private static final int LINKED
+    private static final int VISITING
+    private static final int CYCLE_FREE
+    79:79:public void injectMembers(java.lang.Object)
+    82:82:public java.lang.Object get()
+dagger.internal.Binding$1:
+    28:28:public java.lang.Object get()
+    31:31:public void injectMembers(java.lang.Object)
+dagger.internal.BuiltInBinding:
+    36:36:public void injectMembers(java.lang.Object)
+    41:41:public java.lang.Object get()
+    45:45:public dagger.internal.Binding getDelegate()
+dagger.internal.Keys:
+    56:57:Keys()
+    61:61:public static java.lang.String get(java.lang.reflect.Type)
+    67:67:public static java.lang.String getMembersKey(java.lang.Class)
+    92:101:public static java.lang.String getElementKey(java.lang.reflect.Type,java.lang.annotation.Annotation[],java.lang.Object)
+    238:238:public static boolean isMembersInjection(java.lang.String)
+dagger.internal.LazyBinding:
+    43:43:public void injectMembers(dagger.Lazy)
+    48:48:public dagger.Lazy get()
+    24:24:public bridge synthetic java.lang.Object get()
+    24:24:public bridge synthetic void injectMembers(java.lang.Object)
+    24:24:static synthetic java.lang.Object access$000()
+    24:24:static synthetic dagger.internal.Binding access$100(dagger.internal.LazyBinding)
+dagger.internal.LazyBinding$1
+dagger.internal.Linker$DeferredBinding:
+    367:367:public void injectMembers(java.lang.Object)
+dagger.internal.Linker$SingletonBinding:
+    294:295:public void injectMembers(java.lang.Object)
+    299:306:public java.lang.Object get()
+dagger.internal.LruCache:
+    private int putCount
+    111:130:public final java.lang.Object put(java.lang.Object,java.lang.Object)
+    169:185:public final java.lang.Object remove(java.lang.Object)
+    248:249:public final void evictAll()
+    257:257:public final synchronized int size()
+    266:266:public final synchronized int maxSize()
+    273:273:public final synchronized int hitCount()
+    281:281:public final synchronized int missCount()
+    288:288:public final synchronized int createCount()
+    295:295:public final synchronized int putCount()
+    302:302:public final synchronized int evictionCount()
+    310:310:public final synchronized java.util.Map snapshot()
+dagger.internal.ModuleAdapter:
+    protected java.lang.Object module
+    48:48:public void getBindings(java.util.Map)
+    55:55:protected java.lang.Object newModule()
+    59:59:public java.lang.Object getModule()
+dagger.internal.Plugin:
+    public abstract dagger.internal.ModuleAdapter getModuleAdapter(java.lang.Class,java.lang.Object)
+    public abstract dagger.internal.StaticInjection getStaticInjection(java.lang.Class)
+dagger.internal.RuntimeAggregatingPlugin
+dagger.internal.SetBinding:
+    56:60:public java.util.Set get()
+    69:69:public void injectMembers(java.util.Set)
+    29:29:public bridge synthetic java.lang.Object get()
+    29:29:public bridge synthetic void injectMembers(java.lang.Object)
+dagger.internal.StaticInjection:
+    23:23:public StaticInjection()
+    public abstract void attach(dagger.internal.Linker)
+    public abstract void inject()
+dagger.internal.ThrowingErrorHandler
+dagger.internal.UniqueMap
+dagger.internal.codegen.AtInjectBinding:
+    127:127:public java.lang.Object get()
+    131:131:public void injectMembers(java.lang.Object)
+dagger.internal.codegen.CodeGen:
+    47:48:private CodeGen()
+    69:72:public static java.lang.String adapterName(javax.lang.model.element.TypeElement,java.lang.String)
+    77:79:public static java.lang.String typeToString(javax.lang.model.type.TypeMirror)
+    256:265:public static javax.lang.model.element.ExecutableElement getNoArgsConstructor(javax.lang.model.element.TypeElement)
+    274:278:public static boolean isCallableConstructor(javax.lang.model.element.ExecutableElement)
+    286:288:public static varargs java.util.Set setOf(java.lang.Object[])
+dagger.internal.codegen.CompileTimePlugin:
+    58:58:public dagger.internal.ModuleAdapter getModuleAdapter(java.lang.Class,java.lang.Object)
+    62:62:public dagger.internal.StaticInjection getStaticInjection(java.lang.Class)
+dagger.internal.codegen.DotWriter:
+    private static final java.lang.String INDENT
+    80:85:public varargs void nodeDefaults(java.lang.String[])
+    88:93:public varargs void edgeDefaults(java.lang.String[])
+dagger.internal.codegen.FullGraphProcessor:
+    54:210:public FullGraphProcessor()
+dagger.internal.codegen.FullGraphProcessor$ProviderMethodBinding:
+    229:229:public java.lang.Object get()
+    233:233:public void injectMembers(java.lang.Object)
+dagger.internal.codegen.GeneratorKeys:
+    35:36:private GeneratorKeys()
+dagger.internal.codegen.InjectProcessor
+dagger.internal.codegen.InjectProcessor$1
+dagger.internal.codegen.InjectProcessor$InjectedClass
+dagger.internal.codegen.ProcessorJavadocs
+dagger.internal.codegen.ProvidesProcessor
+dagger.internal.codegen.ProvidesProcessor$1
+dagger.internal.plugins.loading.ClassloadingPlugin
+dagger.internal.plugins.reflect.ReflectiveAtInjectBinding:
+    57:64:private ReflectiveAtInjectBinding(java.lang.String,java.lang.String,boolean,java.lang.Class,java.lang.reflect.Field[],java.lang.reflect.Constructor,int,java.lang.Class,java.lang.String[])
+    89:110:public java.lang.Object get()
+    115:124:public void injectMembers(java.lang.Object)
+    149:228:public static dagger.internal.Binding create(java.lang.Class,boolean)
+    235:235:private static java.lang.reflect.Constructor[] getConstructorsForType(java.lang.Class)
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter:
+    final java.lang.Class moduleClass
+    41:48:public ReflectiveModuleAdapter(java.lang.Class,dagger.Module)
+    51:55:private static java.lang.String[] toMemberKeys(java.lang.Class[])
+    59:96:public void getBindings(java.util.Map)
+    99:100:private void handleBindings(java.util.Map,java.lang.reflect.Method,java.lang.String)
+    103:106:private void handleSetBindings(java.util.Map,java.lang.reflect.Method,java.lang.String)
+    110:122:protected java.lang.Object newModule()
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$1
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding:
+    private final java.lang.Object instance
+    final synthetic dagger.internal.plugins.reflect.ReflectiveModuleAdapter this$0
+    134:139:public ReflectiveModuleAdapter$ProviderMethodBinding(dagger.internal.plugins.reflect.ReflectiveModuleAdapter,java.lang.reflect.Method,java.lang.String,java.lang.Object)
+    153:165:public java.lang.Object get()
+    176:176:public void injectMembers(java.lang.Object)
+dagger.internal.plugins.reflect.ReflectivePlugin
+dagger.internal.plugins.reflect.ReflectiveStaticInjection:
+    private final java.lang.reflect.Field[] fields
+    private dagger.internal.Binding[] bindings
+    31:33:public ReflectiveStaticInjection(java.lang.reflect.Field[])
+    36:42:public void attach(dagger.internal.Linker)
+    46:52:public void inject()
+javax.inject.Named
+javax.inject.Provider:
+    public abstract java.lang.Object get()
+javax.inject.Scope

@@ -1,0 +1,188 @@
+com.example.dagger.sandbox.AndroidServicesModule
+com.example.dagger.sandbox.BaseActivity
+com.example.dagger.sandbox.BuildConfig
+com.example.dagger.sandbox.ProductionModule
+com.example.dagger.sandbox.R
+com.example.dagger.sandbox.R$attr
+com.example.dagger.sandbox.R$dimen
+com.example.dagger.sandbox.R$drawable
+com.example.dagger.sandbox.R$id
+com.example.dagger.sandbox.R$layout
+com.example.dagger.sandbox.R$menu
+com.example.dagger.sandbox.R$string
+com.example.dagger.sandbox.R$style
+com.example.dagger.sandbox.SampleActivity
+com.example.dagger.sandbox.SampleApplication
+dagger.Lazy
+dagger.MembersInjector
+dagger.Module
+dagger.ObjectGraph
+dagger.ObjectGraph$DaggerObjectGraph
+dagger.Provides
+dagger.Provides$Type
+dagger.internal.Binding:
+    protected static final boolean IS_SINGLETON
+    protected static final boolean NOT_SINGLETON
+    private static final int SINGLETON
+    private static final int LINKED
+    private static final int VISITING
+    private static final int CYCLE_FREE
+    74:74:public void attach(dagger.internal.Linker)
+    79:79:public void injectMembers(java.lang.Object)
+    82:82:public java.lang.Object get()
+    98:98:public void getDependencies(java.util.Set,java.util.Set)
+    101:102:void setLinked()
+    105:105:public boolean isLinked()
+    109:109:boolean isSingleton()
+    113:113:public boolean isVisiting()
+    117:118:public void setVisiting(boolean)
+    121:121:public boolean isCycleFree()
+    125:126:public void setCycleFree(boolean)
+dagger.internal.Binding$1:
+    28:28:public java.lang.Object get()
+    31:31:public void injectMembers(java.lang.Object)
+dagger.internal.BuiltInBinding:
+    private final java.lang.String delegateKey
+    private dagger.internal.Binding delegate
+    27:29:public BuiltInBinding(java.lang.String,java.lang.Object,java.lang.String)
+    32:33:public void attach(dagger.internal.Linker)
+    36:36:public void injectMembers(java.lang.Object)
+    41:41:public java.lang.Object get()
+    45:45:public dagger.internal.Binding getDelegate()
+dagger.internal.Keys
+dagger.internal.Keys$1
+dagger.internal.LazyBinding:
+    private final java.lang.String lazyKey
+    private dagger.internal.Binding delegate
+    32:34:public LazyBinding(java.lang.String,java.lang.Object,java.lang.String)
+    39:40:public void attach(dagger.internal.Linker)
+    43:43:public void injectMembers(dagger.Lazy)
+    48:48:public dagger.Lazy get()
+    24:24:public bridge synthetic java.lang.Object get()
+    24:24:public bridge synthetic void injectMembers(java.lang.Object)
+    24:24:static synthetic java.lang.Object access$000()
+    24:24:static synthetic dagger.internal.Binding access$100(dagger.internal.LazyBinding)
+dagger.internal.LazyBinding$1
+dagger.internal.Linker:
+    private final dagger.internal.Linker base
+    private final java.util.Queue toLink
+    private boolean attachSuccess
+    private final java.util.List errors
+    private final java.util.Map bindings
+    private final dagger.internal.Plugin plugin
+    private final dagger.internal.Linker$ErrorHandler errorHandler
+    55:62:public Linker(dagger.internal.Linker,dagger.internal.Plugin,dagger.internal.Linker$ErrorHandler)
+    70:73:public void installBindings(java.util.Map)
+    83:89:public java.util.Map linkAll()
+    97:147:public void linkRequested()
+    155:156:private void assertLockHeld()
+    170:187:private dagger.internal.Binding createJitBinding(java.lang.String,java.lang.Object,boolean)
+    197:197:public dagger.internal.Binding requestBinding(java.lang.String,java.lang.Object)
+    211:234:public dagger.internal.Binding requestBinding(java.lang.String,java.lang.Object,boolean)
+    242:248:private void putBinding(dagger.internal.Binding)
+    254:258:static dagger.internal.Binding scope(dagger.internal.Binding)
+    266:270:private void putIfAbsent(java.util.Map,java.lang.Object,java.lang.Object)
+    274:275:private void addError(java.lang.String)
+    29:29:static synthetic java.lang.Object access$200()
+dagger.internal.Linker$1
+dagger.internal.Linker$DeferredBinding:
+    final java.lang.String deferredKey
+    final boolean mustBeInjectable
+    362:365:private Linker$DeferredBinding(java.lang.String,java.lang.Object,boolean)
+    367:367:public void injectMembers(java.lang.Object)
+    370:370:public void getDependencies(java.util.Set,java.util.Set)
+    358:358:synthetic Linker$DeferredBinding(java.lang.String,java.lang.Object,boolean,dagger.internal.Linker$1)
+dagger.internal.Linker$ErrorHandler
+dagger.internal.Linker$SingletonBinding:
+    private volatile java.lang.Object onlyInstance
+    285:287:private Linker$SingletonBinding(dagger.internal.Binding)
+    290:291:public void attach(dagger.internal.Linker)
+    294:295:public void injectMembers(java.lang.Object)
+    299:306:public java.lang.Object get()
+    310:311:public void getDependencies(java.util.Set,java.util.Set)
+    314:314:public boolean isCycleFree()
+    318:318:public boolean isLinked()
+    322:322:public boolean isVisiting()
+    326:327:public void setCycleFree(boolean)
+    330:331:public void setVisiting(boolean)
+    334:334:protected boolean isSingleton()
+    338:339:protected void setLinked()
+    280:280:synthetic Linker$SingletonBinding(dagger.internal.Binding,dagger.internal.Linker$1)
+dagger.internal.LruCache
+dagger.internal.ModuleAdapter:
+    public final java.lang.String[] entryPoints
+    public final java.lang.Class[] staticInjections
+    public final boolean overrides
+    public final java.lang.Class[] includes
+    public final boolean complete
+    protected java.lang.Object module
+    34:40:protected ModuleAdapter(java.lang.String[],java.lang.Class[],boolean,java.lang.Class[],boolean)
+    48:48:public void getBindings(java.util.Map)
+    55:55:protected java.lang.Object newModule()
+    59:59:public java.lang.Object getModule()
+dagger.internal.Plugin
+dagger.internal.ProblemDetector
+dagger.internal.ProblemDetector$ArraySet
+dagger.internal.RuntimeAggregatingPlugin
+dagger.internal.SetBinding:
+    34:40:public static void add(java.util.Map,java.lang.String,dagger.internal.Binding)
+    45:46:public SetBinding(java.lang.String)
+    49:52:public void attach(dagger.internal.Linker)
+    56:60:public java.util.Set get()
+    65:66:public void getDependencies(java.util.Set,java.util.Set)
+    69:69:public void injectMembers(java.util.Set)
+    29:29:public bridge synthetic java.lang.Object get()
+    29:29:public bridge synthetic void injectMembers(java.lang.Object)
+dagger.internal.StaticInjection:
+    23:23:public StaticInjection()
+    public abstract void attach(dagger.internal.Linker)
+    public abstract void inject()
+dagger.internal.ThrowingErrorHandler
+dagger.internal.UniqueMap
+dagger.internal.plugins.loading.ClassloadingPlugin
+dagger.internal.plugins.reflect.ReflectiveAtInjectBinding:
+    private final java.lang.reflect.Field[] fields
+    private final java.lang.reflect.Constructor constructor
+    private final java.lang.Class supertype
+    private final java.lang.String[] keys
+    private final dagger.internal.Binding[] fieldBindings
+    private final dagger.internal.Binding[] parameterBindings
+    private dagger.internal.Binding supertypeBinding
+    57:64:private ReflectiveAtInjectBinding(java.lang.String,java.lang.String,boolean,java.lang.Class,java.lang.reflect.Field[],java.lang.reflect.Constructor,int,java.lang.Class,java.lang.String[])
+    68:86:public void attach(dagger.internal.Linker)
+    89:110:public java.lang.Object get()
+    115:124:public void injectMembers(java.lang.Object)
+    127:138:public void getDependencies(java.util.Set,java.util.Set)
+    149:228:public static dagger.internal.Binding create(java.lang.Class,boolean)
+    235:235:private static java.lang.reflect.Constructor[] getConstructorsForType(java.lang.Class)
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter:
+    final java.lang.Class moduleClass
+    41:48:public ReflectiveModuleAdapter(java.lang.Class,dagger.Module)
+    51:55:private static java.lang.String[] toMemberKeys(java.lang.Class[])
+    59:96:public void getBindings(java.util.Map)
+    99:100:private void handleBindings(java.util.Map,java.lang.reflect.Method,java.lang.String)
+    103:106:private void handleSetBindings(java.util.Map,java.lang.reflect.Method,java.lang.String)
+    110:122:protected java.lang.Object newModule()
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$1
+dagger.internal.plugins.reflect.ReflectiveModuleAdapter$ProviderMethodBinding:
+    private dagger.internal.Binding[] parameters
+    private final java.lang.Object instance
+    final synthetic dagger.internal.plugins.reflect.ReflectiveModuleAdapter this$0
+    134:139:public ReflectiveModuleAdapter$ProviderMethodBinding(dagger.internal.plugins.reflect.ReflectiveModuleAdapter,java.lang.reflect.Method,java.lang.String,java.lang.Object)
+    142:149:public void attach(dagger.internal.Linker)
+    153:165:public java.lang.Object get()
+    170:173:public void getDependencies(java.util.Set,java.util.Set)
+    176:176:public void injectMembers(java.lang.Object)
+dagger.internal.plugins.reflect.ReflectivePlugin
+dagger.internal.plugins.reflect.ReflectiveStaticInjection:
+    private final java.lang.reflect.Field[] fields
+    private dagger.internal.Binding[] bindings
+    31:33:public ReflectiveStaticInjection(java.lang.reflect.Field[])
+    36:42:public void attach(dagger.internal.Linker)
+    46:52:public void inject()
+javax.inject.Inject
+javax.inject.Named
+javax.inject.Provider
+javax.inject.Qualifier
+javax.inject.Scope
+javax.inject.Singleton
