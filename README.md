@@ -3,7 +3,7 @@ Dagger-Proguard-Test
 
 This is a sample maven-based Android project showing how dagger and Proguard work together. The main purpose of this code is to show that an obfuscated apk with dagger-compiler removed as Maven dependency still crashes.
 
-## Test-Build with Proguard disabled:
+## Test-Build with Proguard disabled
 ```
 cd dagger-sampleclient
 mvn clean install android:deploy android:run
@@ -12,7 +12,7 @@ mvn clean install android:deploy android:run
 **Result:**
 App runs on device as expected without errors.
 
-## "Release"-Build with Proguard enabled:**
+## "Release"-Build with Proguard enabled
 ```
 cd dagger-sampleclient
 mvn -Prelease clean install android:deploy android:run
